@@ -8,7 +8,7 @@ load_layer("tls")
 # If you need to configure a specific eth card: Change the value of the "iface" variable then uncomment the code from l.9 & l.39 and comment the l.38 :)
 #iface = "eth0"
 
-# Fonction de traitement des paquets capturés
+# Packet process function
 def process_packet(packet):
     if "TLS Handshake - Client Hello" in str(packet):
         print("==================================================")
@@ -34,7 +34,7 @@ def process_packet(packet):
 
 # Fonction principale
 def start_sniffing():
-    print("[+] Démarrage de la capture...\n")
+    print("[+] Start Sniffing...\n")
     sniff(filter="tcp port 443", prn=process_packet)
     #sniff(iface="Ethernet", filter="tcp port 443", prn=process_packet)
 
