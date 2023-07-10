@@ -1,0 +1,2 @@
+cryptography==41.0.1
+scapy==2.5.0
