@@ -10,12 +10,14 @@ There's 2 versions of the script:
 
 # **Installation**
 
-1. ```pip3 install -r requirements.txt```
+1. Install Python3 on your Device
 
-2. You can edit ```iface=""``` and uncomment the lines 9 and 39 to sniff from a specific eth card. **(Only if needed. Skip this step if you don't understand what it's about !)**
+2. ```pip3 install -r requirements.txt```
 
-3. MacOS: ```python3 main.py```
-   Windows: ```py main.py```
+3. You can edit ```iface=""``` and uncomment the lines 9 and 39 to sniff from a specific eth card. **(Only if needed. Skip this step if you don't understand what it's about !)**
+
+4. MacOS: ```python3 SNI_Sniffer.py```
+   Windows: ```py SNI_Sniffer.py```
 
 
 # Screenshots
