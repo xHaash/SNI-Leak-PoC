@@ -1,5 +1,5 @@
 # SNI-Leak-PoC
-This is a very simple script that sniff SNI request and parse the leaked domains in an output file. 
+This is a very simple script that sniff TLS Handshakes (Client Hello) and parse the leaked domains in an output file thanks to the SNI Leak. 
 This script is made for showing the information leak that remains in the TLS protocole and more precisly in the SNI extension.
 
 There's 2 versions of the script:
